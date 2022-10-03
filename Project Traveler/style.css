@@ -1,0 +1,384 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+main {
+    background-color: white;
+}
+
+.section_top {
+    min-height: 800px;
+    background-image: url(./images/WanakaLake.jpg);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.traveler_header {
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    letter-spacing: 4px;
+    color: rgb(37, 35, 35);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 124px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    background-color: rgba(234, 230, 224, 0.5);
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+.icon_box{
+    display:flex
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    list-style: none;
+}
+
+
+.link {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: rgb(37, 35, 35);
+    margin: 30px;
+}
+
+.icon {
+    max-width: 28px;
+    opacity: 0.7;
+    border-radius: 25%;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.l_home {
+    border-bottom: 3px solid rgba(37, 35, 35, 0.7);
+}
+
+.l_trips:hover,
+.l_contact:hover {
+    color: rgb(151, 44, 44);
+}
+
+.l_gallery:hover,
+.icon:hover {
+    color: rgb(151, 44, 44);
+    opacity: 100%;
+}
+
+.hero_container {
+    background-color: rgba(234, 230, 224, 0.4);
+    max-width: 35%;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 380px;
+    margin-left: 60%;
+    border-radius: 16px;
+}
+
+.hero {
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: rgb(37, 35, 35);
+    margin-left: 16px;
+}
+
+
+
+.section_top_content {
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 24px;
+    margin-left: 16px;
+}
+
+
+.main_section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.maps_container {
+    display: flex;
+    justify-content: center;
+}
+
+.map2 {
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px 4px rgb(136, 136, 152);
+}
+
+
+.map3_glob {
+    border-radius: 50%;
+    box-shadow: -2px 4px 20px 4px rgb(136, 136, 152);
+    transition: all 3s;
+}
+
+
+.map3_glob:hover {
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: all 1s;
+    transform: rotateZ(90deg);
+    margin-left: 320px;
+
+}
+
+.section1_header {
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(37, 35, 35);
+}
+
+.section1_p {
+    width: 75%;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(37, 35, 35)
+}
+
+.article1 {
+    display: flex;
+    flex-flow: column;
+    margin: 64px;
+}
+
+
+.article1_header {
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 44px;
+}
+
+.article1_p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.article1_cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.article1_card {
+    max-width: 30%;
+    background-color: rgb(240, 243, 246);
+    background-color: rgb(57, 96, 172);
+    border-radius: 5px;
+    box-shadow: 2px 2px 16px 4px rgb(195, 194, 194);
+    position: relative;
+}
+
+.card_header {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(57, 96, 172);
+    color: #eee;
+    margin-left: 16px;
+    margin-bottom: 12px;
+}
+
+.card_p {
+    font-family: "Open Sans";
+    line-height: 2em;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 64px;
+}
+
+.button {
+    width: 164px;
+    height: 50px;
+    background-color: rgb(57, 96, 172);
+    text-decoration: none;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #eee;
+    padding-top: 10px;
+    border-style: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 16px 1px rgb(183, 180, 180);
+    position: absolute;
+    left: 16px;
+    bottom: 4px;
+}
+
+.button:hover {
+    background-color: rgba(21, 53, 116, 0.7);
+}
+
+.main_nature {
+    padding-bottom: 48px;
+}
+
+footer {
+    background-color: rgba(234, 230, 224, 1);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.to_top:hover {
+    color: rgb(151, 44, 44);
+    border-color: rgb(151, 44, 44);
+}
+
+
+@media screen and (max-width: 400px) {
+    .header {
+        display: block;
+        min-height: 50px;
+        background-color: rgba(234, 230, 224, 0.5);
+        margin: 0px 10px;
+        border-radius: 10px;
+    }
+
+    .traveler_header {
+        font-family: 'Pacifico', cursive;
+        font-size: 48px;
+        letter-spacing: 4px;
+        color: rgb(37, 35, 35);
+        margin-top: 4px;
+        margin-bottom: 4px;
+       margin-left: 32px;
+    }
+
+    .links {
+        display: block;
+        margin: 0px;
+        padding-left: 4px;
+        list-style: none;
+    }
+    .icon_box{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hero_container {
+        background-color: rgba(234, 230, 224, 0.4);
+        max-width: 100%;
+        font-family: "Open Sans", sans-serif;
+        margin-top: 380px;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 16px;
+    }
+    
+    .hero {
+        font-family: "Open Sans", sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        color: rgb(37, 35, 35);
+        margin-left: 16px;
+    }
+
+
+    .article1 {
+        display: flex;
+        flex-flow: column;
+        margin: 16px;
+    }
+
+    .article1_header {
+        font-family: "Open Sans", sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 4px;
+        margin-top: 44px;
+    }
+
+    .article1_cards {
+        display: block;
+    }
+    
+    .article1_card {
+        max-width: 100%;
+        background-color: rgb(240, 243, 246);
+        background-color: rgb(57, 96, 172);
+        border-radius: 5px;
+        box-shadow: 2px 2px 16px 4px rgb(195, 194, 194);
+        position: relative;
+    }
+
+    .img_card{
+        width: 340px
+    }
+
+    .card_header {
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 2px;
+        font-size: 32px;
+        font-weight: 400;
+        color: rgb(57, 96, 172);
+        color: #eee;
+        margin-left: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .card_p {
+        font-family: "Open Sans";
+        line-height: 2em;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+        padding-bottom: 64px;
+    }
+
+    .maps_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .map2 {
+        border-radius: 50%;
+        box-shadow: 2px 2px 20px 4px rgb(136, 136, 152);
+    }
+    
+    
+    .map3_glob {
+        border-radius: 50%;
+        box-shadow: -2px 4px 20px 4px rgb(136, 136, 152);
+        transition: all 3s;
+    }
+
+
+}
