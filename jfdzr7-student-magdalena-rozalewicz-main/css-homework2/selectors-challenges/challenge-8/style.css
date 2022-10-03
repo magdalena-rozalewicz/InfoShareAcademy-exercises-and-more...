@@ -1,0 +1,7 @@
+div > p {
+  font-size: 25px;
+}
+
+ div>p:first-child {
+   font-style: italic;
+ }

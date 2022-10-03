@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.blog {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+}
+
+.blog h3 {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+}
+
+aside {
+    border: 2px solid red ;
+    border-radius: 15px;
+    margin-left: 15px;
+    padding: 15px;
+    width: 23%;
+}
+
+#footer {
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+}
+.gallery {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+}
+/*
+*{
+    box-sizing: content-box;
+}
+.blog {
+    color:blue;
+    text-align: center;
+    width: 70%;
+}
+
+.article {
+    color:red;
+    width: 70%;
+    border: solidcolor red;
+    text-align: center;
+}
+*/

@@ -1,0 +1,8 @@
+div+div {
+   color:red;
+ }
+
+ 
+ div:nth-child(2)  {
+   font-style: italic;
+ }

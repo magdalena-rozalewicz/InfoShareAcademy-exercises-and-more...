@@ -1,0 +1,70 @@
+
+body {
+    width: 700px;
+    margin:auto;
+    background-image: url(https://images.freeimages.com/images/large-previews/b1d/old-paper-1312830.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+.header{
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(4, 4, 71);
+    padding: 50px 80px 20px 80px;
+    margin-bottom: 0px;
+    font-family:"Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.photo-top {
+    margin: auto;
+    text-align: center;   
+}
+
+.img-top{
+    border-radius: 40px;
+}
+
+.main{
+    text-align: center;
+}
+
+.h2{
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    
+}
+
+.list{
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+.list2{
+    text-align: left;
+    padding-left: 70px;
+}
+
+.gallery {
+    display:flex;
+    justify-content: space-around;
+}
+
+p {
+    font-family: "Actor", Arial, Helvetica, sans-serif;
+}
+
+img {
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.3);
+}
+
+.opacity-photo{
+    opacity: 70%;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
